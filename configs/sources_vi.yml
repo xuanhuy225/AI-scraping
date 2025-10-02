@@ -1,0 +1,4 @@
+# Add RSS URLs that ALLOW crawling (respect robots.txt & TOS).
+rss_feeds:
+  - "https://vnexpress.net/rss/tin-moi-nhat.rss"
+  - "https://tuoitre.vn/rss/thoi-su.rss"

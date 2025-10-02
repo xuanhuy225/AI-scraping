@@ -1,0 +1,15 @@
+scrapy==2.11.1
+scrapy-playwright==0.0.35
+trafilatura==1.7.0
+readability-lxml==0.8.1
+beautifulsoup4==4.12.3
+lxml==5.2.1
+orjson==3.10.7
+simhash==2.1.2
+datasketch==1.5.9
+regex==2024.11.6
+langcodes==3.4.0
+fasttext-wheel==0.9.2
+python-slugify==8.0.4
+pytesseract==0.3.13
+Pillow==10.4.0
