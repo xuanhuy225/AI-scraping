@@ -1,0 +1,4 @@
+rss_feeds:
+  # - "https://example-encyclopedia.vn/rss.xml"
+sitemaps:
+  # - "https://example-encyclopedia.vn/sitemap.xml"

@@ -1,6 +1,7 @@
 import os, hashlib
 import orjson
 import scrapy
+import random
 
 from harvester.utils.extract_main import extract_main
 from harvester.utils.normalize import normalize_text
@@ -38,12 +39,13 @@ class CleanAndWritePipeline:
         html  = item.get("html") or ""
 
         # Save raw html sample for audit
-        if url:
-            hname = hashlib.md5(url.encode("utf-8")).hexdigest() + ".html"
-        else:
-            hname = hashlib.md5((title + html).encode("utf-8")).hexdigest() + ".html"
-        with open(os.path.join(RAW_DIR, hname), "wb") as f:
-            f.write(html.encode("utf-8", errors="ignore"))
+        if random.random() < 0.01:
+            if url:
+                hname = hashlib.md5(url.encode("utf-8")).hexdigest() + ".html"
+            else:
+                hname = hashlib.md5((title + html).encode("utf-8")).hexdigest() + ".html"
+            with open(os.path.join(RAW_DIR, hname), "wb") as f:
+                f.write(html.encode("utf-8", errors="ignore"))
 
         # Extract & image inject
         text0 = extract_main(html)

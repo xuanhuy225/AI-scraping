@@ -1,0 +1,4 @@
+rss_feeds:
+  # - "https://ebooks.example.vn/rss.xml"
+sitemaps:
+  # - "https://ebooks.example.vn/sitemap.xml"

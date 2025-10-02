@@ -1,0 +1,5 @@
+sitemaps:
+  # - "https://docs.example.vn/sitemap.xml"
+allow_paths:
+  # - "/guide/"
+  # - "/api/"
