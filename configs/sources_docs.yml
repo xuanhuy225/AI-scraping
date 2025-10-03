@@ -1,5 +1,14 @@
+rss_feeds:
+  - "https://baochinhphu.vn"
+  - "https://giaoducthoidai.vn/rss/home.rss"
+  - "https://khoahocphattrien.vn/rss/home.rss"
+
 sitemaps:
-  # - "https://docs.example.vn/sitemap.xml"
-allow_paths:
-  # - "/guide/"
-  # - "/api/"
+  - "https://vbpl.vn/sitemap.xml"
+  - "https://moj.gov.vn/sitemap.xml"
+  - "https://quochoi.vn/sitemap.xml"
+  - "https://vnpt.com.vn/sitemap.xml"
+  - "https://fpt.com.vn/sitemap.xml"
+  - "https://giaoducthoidai.vn/sitemap.xml"
+  - "https://khoahocphattrien.vn"
+  - "https://tiasang.com.vn/sitemap.xml"

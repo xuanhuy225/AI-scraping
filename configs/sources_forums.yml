@@ -1,3 +1,23 @@
 rss_feeds:
-  # - "https://forum.example.vn/latest.rss"
-  # - "https://forum.example.vn/feed.php?mode=topics"
+  # Công nghệ
+  - "https://tinhte.vn/rss/"
+  - "https://vn-z.vn/forums/-/index.rss"
+  - "https://voz.vn"
+
+  # Xe cộ
+  - "https://www.otosaigon.com/forums/-/index.rss"
+  - "https://www.otofun.net/forums/-/index.rss"
+  - "https://www.webtretho.com"
+  - "https://www.2banh.vn/sitemap.xml"
+
+  # Đời sống
+  - "https://www.webtretho.com/rss"
+  - "https://www.lamchame.com/forum/forums/-/index.rss"
+  - "https://vietcetera.com"
+  - "https://svvn.vn"
+
+sitemaps:
+  - "https://tinhte.vn/sitemap.xml"
+  - "https://voz.vn/sitemap.xml"
+  - "https://www.otofun.net/sitemap.xml"
+  - "https://vn-z.vn/sitemap.xml"

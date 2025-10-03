@@ -242,7 +242,7 @@ Each article is saved as a JSON object with the following structure:
 ### Validate JSONL Output
 
 ```bash
-py -3.11 tools/validate_jsonl.py data/jsonl/vi_news_000.jsonl
+py -3.11 tools/validate_jsonl.py data/jsonl/news_1004.jsonl
 ```
 
 ### Shard Large JSONL Files

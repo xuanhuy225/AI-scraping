@@ -1,4 +1,8 @@
 rss_feeds:
-  # - "https://ebooks.example.vn/rss.xml"
+  # Thư viện Quốc gia Việt Nam
+  - "https://nlv.gov.vn"
+  # Internet Archive (sách tiếng Việt)
+  - "https://archive.org/services/collection-rss.php?collection=books&language=Vietnamese"
+
 sitemaps:
-  # - "https://ebooks.example.vn/sitemap.xml"
+
