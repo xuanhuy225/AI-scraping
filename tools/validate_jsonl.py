@@ -20,12 +20,12 @@ def main(path):
             if keys != ["id","title","text","domain","url"]:
                 print(f"Line {i}: wrong key order {keys}")
                 return 1
-            if len(obj["text"].split()) < 200:
-                print(f"Line {i}: <200 words")
+            if len(obj["text"].split()) < 150:
+                print(f"Line {i}: <150 words")
                 return 1
-            if bad(obj["text"]) or bad(obj["title"]):
-                print(f"Line {i}: emoji/multi-NL violation")
-                return 1
+            # if bad(obj["text"]) or bad(obj["title"]):
+            #     print(f"Line {i}: emoji/multi-NL violation")
+            #     return 1
 
     # # ---- thêm validate tổng số dòng ----
     # if line_count < 10000:

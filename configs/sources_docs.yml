@@ -1,6 +1,6 @@
 rss_feeds:
   - "https://baochinhphu.vn"
-  - "https://giaoducthoidai.vn/rss/home.rss"
+#  - "https://giaoducthoidai.vn/rss/home.rss"
   - "https://khoahocphattrien.vn/rss/home.rss"
 
 sitemaps:
@@ -9,6 +9,6 @@ sitemaps:
   - "https://quochoi.vn/sitemap.xml"
   - "https://vnpt.com.vn/sitemap.xml"
   - "https://fpt.com.vn/sitemap.xml"
-  - "https://giaoducthoidai.vn/sitemap.xml"
+#  - "https://giaoducthoidai.vn/sitemap.xml"
   - "https://khoahocphattrien.vn"
   - "https://tiasang.com.vn/sitemap.xml"
